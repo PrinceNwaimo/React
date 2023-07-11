@@ -1,0 +1,9 @@
+.FirstContainer{
+    background: url("background.png");
+    position: absolute;
+    width: 1920px;
+    height: 960px;
+    left: 0px;
+    top: 0px
+}
+

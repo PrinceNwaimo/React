@@ -1,0 +1,108 @@
+body{
+    background-image: url("https://wallpapercave.com/wp/wp2268959.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clock {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    border: 5px solid #000;
+    border-radius: 50%;
+    /*margin: 0 auto;*/
+    margin-top: 100px;
+    margin-left: 500px;
+    box-shadow: black;
+    background-color: transparent;
+    box-shadow:0 0 50px 150px inset #FFFFFF22;
+}
+
+.hand {
+    background: #000;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform-origin: bottom;
+    transition: transform 0.1s ease-in-out;
+}
+
+.hour {
+    width: 4px;
+    height: 110px;
+}
+
+.minute {
+    width: 3px;
+    height: 130px;
+}
+
+.second {
+    background-color: #FF3860;
+    width: 2px;
+    height: 160px;
+}
+
+.digital-clock {
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 300px;
+    margin-left: 38px;
+    border-radius: 5px;
+    border:5px solid #000000;
+    padding: 6px;
+
+}
+.number1{
+    margin-top: 0px;
+    margin-left: 50%;
+    font-size: 20px;
+}
+
+.number2{
+    margin-top: 45px;
+    margin-left: 80%;
+}
+.number12{
+    margin-top:0;
+    margin-right: auto;
+
+
+}
+.number3{
+    margin-top: 55px;
+    margin-left: 90%;
+
+}
+.number4{
+    margin-top: 55px;
+    margin-left: 80%;
+}
+.number5{
+    margin-top: 40px;
+    margin-left:50%;
+}
+.number6{
+
+}
+.number7{
+    margin-top: -55px;
+    margin-right: 53%;
+}
+.number8{
+    margin-top: -75px;
+    margin-right: 80%;
+}
+.number9{
+    margin-top: -90px;
+    margin-right: 95%;
+}
+.number10{
+    margin-top: -100px;
+    margin-right: 85%;
+}
+.number11{
+    margin-top: -90px;
+    margin-right: 50%;
+}
